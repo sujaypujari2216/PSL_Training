@@ -1,0 +1,4 @@
+git config --global core.editor "notepad" user.name "Sujay" user.email "Sujay@mail.com"
+
+git config --list
+
