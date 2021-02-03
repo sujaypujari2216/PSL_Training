@@ -2,3 +2,24 @@ git config --global core.editor "notepad" user.name "Sujay" user.email "Sujay@ma
 
 git config --list
 
+********Create & Initialize repo with master branch
+git init 
+
+git status
+
+git add File.txt
+
+git commit -m "WorkItemID:File created, Hello World"
+
+git commit -am "message" //no need add tracked files but doestn't add new created files
+
+git log
+			shows on one line			commits from excluding date					commits matches pattern
+				v								v											v
+git log -2 --oneline --author="Sujay"  --since="mm/dd/yyyy"  --until="mm/dd/yyyy"  --grep="message pattern"
+         ^     				^										^
+	top 2 commits	  commits by "Sujay" 						till this date
+	
+git log --help
+
+git diff
