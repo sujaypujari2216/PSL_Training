@@ -1,3 +1,6 @@
 Hello World
 
 Modified the file to check 3-way merging
+
+Change 3: Trying 3-way merge
+

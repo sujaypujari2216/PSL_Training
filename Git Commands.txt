@@ -55,3 +55,4 @@ git merge <child_branch>
 
 //After merge delete the child branch
 git branch -d <branch_name>
+
