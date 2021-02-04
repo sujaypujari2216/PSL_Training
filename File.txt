@@ -1,3 +1,5 @@
 Hello World
 
 Modified the file
+
+Change 3: Trying 3-way merge

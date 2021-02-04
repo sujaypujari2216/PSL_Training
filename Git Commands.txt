@@ -23,3 +23,9 @@ git log -2 --oneline --author="Sujay"  --since="mm/dd/yyyy"  --until="mm/dd/yyyy
 git log --help
 
 git diff
+
+git rm fileToBeDeleted.txt
+
+git checkout <name>// swithct between version, tags,branch
+
+git tag <tag_name> <sha_key>
