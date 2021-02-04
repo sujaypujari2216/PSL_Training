@@ -1,6 +1,6 @@
 Hello World
 
-Modified the file to check 3-way merging
+Modified the file to check 3-way merging and now rebase with conflict.
 
 Change 3: Trying 3-way merge
 
