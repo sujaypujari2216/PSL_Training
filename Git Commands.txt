@@ -23,3 +23,35 @@ git log -2 --oneline --author="Sujay"  --since="mm/dd/yyyy"  --until="mm/dd/yyyy
 git log --help
 
 git diff
+
+git rm fileToBeDeleted.txt
+
+git checkout <name>// swithct between version, tags,branch
+
+git tag <tag_name> <sha_key>
+
+reset - file level & commit level- recent commit - unsafe
+revert - commit level -safer
+
+git branch <branch_name> //Create branch
+git checkout <branch_name> // Switch branch
+
+git branch -b <branch_name> // create and switch to branch
+
+//Before merging switch to its parent branch and then call merge. Branch always mergeto its parent. 
+//Before merging pull the latest copy from remote
+
+//For same base
+git checkout <parent_branch>
+git merge <child_branch>
+
+//For different base
+//1. Merge Commit will be there
+
+//2. Rebase
+git rebase <master>
+git checkout <parent_branch>
+git merge <child_branch>
+
+//After merge delete the child branch
+git branch -d <branch_name>
