@@ -48,6 +48,12 @@ git merge <child_branch>
 //For different base
 //1. Merge Commit will be there
 
+git checkout <parent_branch>
+git merge <child_branch>
+
+// resolve conflict
+git commit 
+
 //2. Rebase
 git rebase <master>
 git checkout <parent_branch>
